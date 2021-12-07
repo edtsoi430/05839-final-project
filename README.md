@@ -14,6 +14,13 @@ Website url: http://rentalprice.weebly.com/
 
 ## Video Presentation:
 [![Demo CountPages alpha](img/short-intro-video.gif)](https://www.youtube.com/watch?v=-lrPD198FLQ)
+## Website/Interactive application sections breakdown
+|Section | Description |
+|------------ | ------------------------------------------------------|
+| `Introduction` | Describe a brief introduction of our project. Also describe motivation of our work, our goals from this project, our approach, and contains our video presentation (in Youtube embedded format)       |
+| `Dataset`| Describe some data cleaning that we have done, and our chosen dataset's quality (Four C's of Data Quality)|
+| `Interest Rates and Rent`| Visualization of the relationship between federal reserve's interest rate and median rental prices in San Francisco, Seattle, Dallas, Queens, Tucson, Columbus and more. Also contains linear regression machine learning model to predict rental prices based on interest rate. Briefly describe inflation, which is also a factor that could impact rental prices. |
+| `Feature Selection`| Section where we utilize advanced machine learning techniques such as feature selection. Demonstrated artifacts using Pearson correlation and Chi Square analysis of different cities data to tell our story.|
 
 ## Datasets of choice:
 - [Zillow house price and rental price data](https://www.kaggle.com/paultimothymooney/zillow-house-price-data/tasks?taskId=369)
@@ -39,7 +46,7 @@ To measure the quality of our chosen datasets above, we use the "Four C's of Dat
     These files were cleaned and extracted from City_MedianRentalPrice_<type_of_apartments>.csv from the original dataset, and contain median rental price information for studio, one-bedroom, two-bedrooms, three-bedrooms and sales price city from the period 2014-02 to 2019-11. We have verified the dataset using the ones download from Zillow.com/research/data, and found the data to be exact match, which means they are very likely to be accurate.
     
     - **Federal Reserve Funds Rate dataset:** The federal reserve fund rate dataset that we have also matches with the one on the federal's official website, which proves it accountability.
-    -  
+ 
 4. Data Correctness:
    - We have dived and researched into the median rental prices over the years for all the different cities that we are interested in (Chicago, Seattle, Dallas, Tucson, Columbus, Queens), and no median rent data deviates from the expected range. Moreover, both Zillow and Federal Reserve are very accountable, which should further proves the data's correctness.
 
@@ -71,6 +78,8 @@ To measure the quality of our chosen datasets above, we use the "Four C's of Dat
 
     <img src="img/feature-selection-chi-square-analysis.png">
 
+
+Thank you for your patience in reading this! We hope you enjoyed our project :D
 
 
 
